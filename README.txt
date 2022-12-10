@@ -1,6 +1,8 @@
 ************************
 *CPRE 281 FINAL PROJECT*
 ************************
+Created By Alexander Kronau & Caden Murphy
+
 [!] Main BDF File: proj.bdf
 
 
@@ -12,8 +14,9 @@ FEATURES:
 [*]	End Sequence
 
 
-[?] For our final project we set out to make a microwave timer. We accomplished
-    our goal of setting a custom time, as well as having a preset available. 
+[?] For our final project we set out to make a functioanl microwave simulation. We accomplished
+    our goal of setting a custom time, having a preset available, the ability to pause countdown,
+    reset the system at any time, and a visually represented end sequence. 
 
 ------------------------------------------------------------------------------------------------------
 **********************************************
