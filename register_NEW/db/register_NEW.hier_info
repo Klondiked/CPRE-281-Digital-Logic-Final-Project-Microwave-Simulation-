@@ -1,0 +1,199 @@
+|register_NEW
+A_O <= seven_seg_decoder:inst5.A
+CLK => inst.CLK
+CLK => inst1.CLK
+CLK => inst2.CLK
+CLK => inst3.CLK
+CLK => inst7.CLK
+CLK => inst6.CLK
+CLK => inst12.CLK
+CLK => inst13.CLK
+LOAD_0 => inst20.IN0
+REG_SEL => 21Demux:inst18.S
+REG_SEL => 21Demux:UGH.S
+REG_SEL => 21Demux:WHY.S
+REG_SEL => 21Demux:NOO.S
+REG_SEL => REG_LED.DATAIN
+IN_3 => numcap:inst22.Z
+IN_2 => numcap:inst22.Y
+IN_1 => numcap:inst22.X
+IN_0 => numcap:inst22.W
+B_O <= seven_seg_decoder:inst5.B
+C_O <= seven_seg_decoder:inst5.C
+D_O <= seven_seg_decoder:inst5.D
+E_O <= seven_seg_decoder:inst5.E
+F_O <= seven_seg_decoder:inst5.F
+G_O <= seven_seg_decoder:inst5.G
+A_I <= seven_seg_decoder:inst4.A
+B_I <= seven_seg_decoder:inst4.B
+C_I <= seven_seg_decoder:inst4.C
+D_I <= seven_seg_decoder:inst4.D
+E_I <= seven_seg_decoder:inst4.E
+F_I <= seven_seg_decoder:inst4.F
+G_I <= seven_seg_decoder:inst4.G
+A_O19 <= seven_seg_decoder:inst19.A
+LOAD_1 => inst21.IN0
+B_O20 <= seven_seg_decoder:inst19.B
+C_O21 <= seven_seg_decoder:inst19.C
+D_O22 <= seven_seg_decoder:inst19.D
+E_O23 <= seven_seg_decoder:inst19.E
+F_O24 <= seven_seg_decoder:inst19.F
+G_O25 <= seven_seg_decoder:inst19.G
+REG_LED <= REG_SEL.DB_MAX_OUTPUT_PORT_TYPE
+LOAD0_LED <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+LOAD1_LED <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_NEW|seven_seg_decoder:inst5
+x3 => Decoder0.IN0
+x2 => Decoder0.IN1
+x1 => Decoder0.IN2
+x0 => Decoder0.IN3
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_NEW|21mux:inst8
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|register_NEW|21Demux:inst18
+OUT_0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => whyyyyy.IN0
+IN => inst.IN1
+IN => whyyyyy.IN1
+OUT_1 <= whyyyyy.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_NEW|numcap:inst22
+Z => Decoder0.IN0
+Y => Decoder0.IN1
+X => Decoder0.IN2
+W => Decoder0.IN3
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_NEW|21mux:inst9
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|register_NEW|21Demux:UGH
+OUT_0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => whyyyyy.IN0
+IN => inst.IN1
+IN => whyyyyy.IN1
+OUT_1 <= whyyyyy.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_NEW|21mux:inst10
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|register_NEW|21Demux:WHY
+OUT_0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => whyyyyy.IN0
+IN => inst.IN1
+IN => whyyyyy.IN1
+OUT_1 <= whyyyyy.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_NEW|21mux:inst11
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|register_NEW|21Demux:NOO
+OUT_0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+S => whyyyyy.IN0
+IN => inst.IN1
+IN => whyyyyy.IN1
+OUT_1 <= whyyyyy.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_NEW|seven_seg_decoder:inst4
+x3 => Decoder0.IN0
+x2 => Decoder0.IN1
+x1 => Decoder0.IN2
+x0 => Decoder0.IN3
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_NEW|seven_seg_decoder:inst19
+x3 => Decoder0.IN0
+x2 => Decoder0.IN1
+x1 => Decoder0.IN2
+x0 => Decoder0.IN3
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_NEW|21mux:inst14
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|register_NEW|21mux:inst15
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|register_NEW|21mux:inst16
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|register_NEW|21mux:inst17
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
