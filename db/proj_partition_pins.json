@@ -1,0 +1,261 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pin_name1",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name2",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name3",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name4",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name5",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name6",
+					"strict" : false
+				},
+				{
+					"name" : "pin_name7",
+					"strict" : false
+				},
+				{
+					"name" : "11",
+					"strict" : false
+				},
+				{
+					"name" : "22",
+					"strict" : false
+				},
+				{
+					"name" : "33",
+					"strict" : false
+				},
+				{
+					"name" : "44",
+					"strict" : false
+				},
+				{
+					"name" : "55",
+					"strict" : false
+				},
+				{
+					"name" : "66",
+					"strict" : false
+				},
+				{
+					"name" : "77",
+					"strict" : false
+				},
+				{
+					"name" : "111",
+					"strict" : false
+				},
+				{
+					"name" : "444",
+					"strict" : false
+				},
+				{
+					"name" : "555",
+					"strict" : false
+				},
+				{
+					"name" : "666",
+					"strict" : false
+				},
+				{
+					"name" : "777",
+					"strict" : false
+				},
+				{
+					"name" : "n1",
+					"strict" : false
+				},
+				{
+					"name" : "n2",
+					"strict" : false
+				},
+				{
+					"name" : "n3",
+					"strict" : false
+				},
+				{
+					"name" : "d1",
+					"strict" : false
+				},
+				{
+					"name" : "d2",
+					"strict" : false
+				},
+				{
+					"name" : "d3",
+					"strict" : false
+				},
+				{
+					"name" : "d4",
+					"strict" : false
+				},
+				{
+					"name" : "d5",
+					"strict" : false
+				},
+				{
+					"name" : "REG_LED",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT1",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT2",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT3",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT4",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT5",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT6",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT7",
+					"strict" : false
+				},
+				{
+					"name" : "reg02",
+					"strict" : false
+				},
+				{
+					"name" : "reg03",
+					"strict" : false
+				},
+				{
+					"name" : "reg04",
+					"strict" : false
+				},
+				{
+					"name" : "reg01",
+					"strict" : false
+				},
+				{
+					"name" : "reg05",
+					"strict" : false
+				},
+				{
+					"name" : "reg06",
+					"strict" : false
+				},
+				{
+					"name" : "reg07",
+					"strict" : false
+				},
+				{
+					"name" : "reg11",
+					"strict" : false
+				},
+				{
+					"name" : "reg12",
+					"strict" : false
+				},
+				{
+					"name" : "reg13",
+					"strict" : false
+				},
+				{
+					"name" : "reg14",
+					"strict" : false
+				},
+				{
+					"name" : "reg15",
+					"strict" : false
+				},
+				{
+					"name" : "reg16",
+					"strict" : false
+				},
+				{
+					"name" : "reg17",
+					"strict" : false
+				},
+				{
+					"name" : "light",
+					"strict" : false
+				},
+				{
+					"name" : "SET11",
+					"strict" : false
+				},
+				{
+					"name" : "SET2",
+					"strict" : false
+				},
+				{
+					"name" : "PAUSE",
+					"strict" : false
+				},
+				{
+					"name" : "REG_SEL",
+					"strict" : false
+				},
+				{
+					"name" : "IN_3",
+					"strict" : false
+				},
+				{
+					"name" : "IN_0",
+					"strict" : false
+				},
+				{
+					"name" : "IN_1",
+					"strict" : false
+				},
+				{
+					"name" : "IN_2",
+					"strict" : false
+				},
+				{
+					"name" : "stopit",
+					"strict" : false
+				},
+				{
+					"name" : "INCLK",
+					"strict" : false
+				},
+				{
+					"name" : "LOAD_0",
+					"strict" : false
+				},
+				{
+					"name" : "LOAD_1",
+					"strict" : false
+				},
+				{
+					"name" : "QUICKSET",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
